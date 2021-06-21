@@ -1,0 +1,30 @@
+#Test1
+CreatePlateau 5 5
+AddRover 1 2 N LMLMLMLMM
+AddRover 3 3 E MMRMMRMRRM
+ProcessCommands
+Report
+Exit
+
+#Test2
+CreatePlateau 7 8
+AddRover 1 4 E LLMRMRM
+AddRover 3 4 N RRMLMLM
+ProcessCommands
+Report
+Exit
+
+#Test3
+CreatePlateau 6 6
+AddRover 2 2 E M
+AddRover 3 1 N M
+ProcessCommands
+Report
+Exit
+
+#Test4
+CreatePlateau 2 2
+AddRover 0 0 N MMM
+ProcessCommands
+Report
+Exit
